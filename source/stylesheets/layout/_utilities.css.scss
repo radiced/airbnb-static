@@ -23,3 +23,21 @@
 .bg-facebook {
   background: #3b5998;
 }
+
+.list-nostyle {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.one-line {
+  display: flex;
+
+  > * {
+    width: 25%;
+    flex-shrink: 1;
+    flex-grow: 1;
+  }
+}
+
+
